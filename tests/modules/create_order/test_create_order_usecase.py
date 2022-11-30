@@ -17,5 +17,7 @@ class Test_CreateOrderUsecase:
         
         assert len(repo.orders) == lenBefore + 1
         assert order.table == 4
-        assert order.pizza.flavor == FLAVOR.CHICKEN
-        assert order.pizza.price == PRICE.BACON 
+        assert order.pizza.flavor == FLAVOR.BACON
+        assert order.pizza.price == PRICE.BACON
+
+#Erro de testes e do List(list???)
